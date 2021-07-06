@@ -1,19 +1,19 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:linkstagram/providers/authProvider/auth.dart';
+import 'package:linkstagram/providers/auth.dart';
 import 'package:linkstagram/providers/posts.dart';
 import 'package:linkstagram/screens/profileScreen.dart';
-import 'package:linkstagram/widgets/chooseLanguageButton.dart';
+import 'package:linkstagram/widgets/customAppbar/chooseLanguageButton.dart';
 import 'package:linkstagram/widgets/customAppbar/customAppBar.dart';
 import 'package:linkstagram/widgets/customAppbar/appBarDesktopButtons.dart';
 
-import 'package:linkstagram/widgets/editUserProfilePopUp.dart';
+import 'package:linkstagram/widgets/editProfileScreenWidgets/editUserProfilePopUp.dart';
 import 'package:linkstagram/widgets/newprofilePicture.dart';
 import 'package:linkstagram/widgets/postTile.dart';
 import 'package:linkstagram/widgets/profileScreenWidgets/profileScreenButtons.dart';
 import 'package:linkstagram/widgets/profileScreenWidgets/userInformation.dart';
-import 'package:linkstagram/widgets/storiesView.dart';
+import 'package:linkstagram/widgets/storiesWidgets/storiesView.dart';
 import 'package:provider/provider.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -64,7 +64,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                       hasUnViewedStories: false,
                                       size: 40,
                                       url: Provider.of<Auth>(context,
-                                              listen: false)
+                                              listen: true)
                                           .user
                                           .profile_photo_url,
                                       radius: 12,

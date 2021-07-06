@@ -5,10 +5,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:linkstagram/constants/app_colors.dart';
 import 'package:linkstagram/models/user.dart';
-import 'package:linkstagram/providers/authProvider/auth.dart';
+import 'package:linkstagram/providers/auth.dart';
 import 'package:linkstagram/providers/posts.dart';
-import 'package:linkstagram/widgets/errorImagePlaceholder.dart';
-import 'package:linkstagram/widgets/loadingPlaceholder.dart';
+import 'package:linkstagram/widgets/imagePlaceholders/errorImagePlaceholder.dart';
+import 'package:linkstagram/widgets/imagePlaceholders/loadingPlaceholder.dart';
 import 'package:provider/provider.dart';
 
 class EditUserProfilePopUp extends StatefulWidget {

@@ -9,7 +9,7 @@ import 'package:linkstagram/screens/homeScreen.dart';
 import 'package:linkstagram/screens/profileScreen.dart';
 import 'package:provider/provider.dart';
 
-import 'providers/authProvider/auth.dart';
+import 'providers/auth.dart';
 
 void main() {
   runApp(MyApp());

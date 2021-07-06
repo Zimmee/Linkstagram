@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:linkstagram/constants/app_colors.dart';
-import 'package:linkstagram/widgets/addPostPopUp.dart';
+import 'package:linkstagram/widgets/addPostDialog.dart';
 
 class ProfileScreenButtons extends StatelessWidget {
   Function editProfileFunction;
@@ -56,7 +56,8 @@ class ProfileScreenButtons extends StatelessWidget {
                 onPressed: () {
                   if (kIsWeb)
                     showDialog(
-                        context: context, builder: (context) => AddPostPopUp());
+                        context: context,
+                        builder: (context) => AddPostDialog());
                 },
                 child: Text('New Post')),
           ),

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:linkstagram/constants/app_colors.dart';
 import 'package:linkstagram/constants/form_validators.dart';
-import 'package:linkstagram/providers/authProvider/auth.dart';
+import 'package:linkstagram/providers/auth.dart';
 import 'package:linkstagram/screens/authScreen.dart';
 import 'package:provider/provider.dart';
 

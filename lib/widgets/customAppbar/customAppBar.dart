@@ -28,10 +28,10 @@ class _CustomAppBarState extends State<CustomAppBar> {
             title: Text(
               "Linkstagram",
               style: TextStyle(
-                fontWeight: FontWeight.w800,
-                color: Colors.black,
-                fontSize: 15.67.sp,
-              ),
+                  fontWeight: FontWeight.w800,
+                  color: Colors.black,
+                  fontSize: 15.67,
+                  fontStyle: FontStyle.italic),
             ),
             actions: widget.actions,
           ),

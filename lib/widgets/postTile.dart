@@ -3,13 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:intl/intl.dart';
 import 'package:linkstagram/constants/app_colors.dart';
-import 'package:linkstagram/providers/authProvider/auth.dart';
+import 'package:linkstagram/providers/auth.dart';
 import 'package:linkstagram/providers/post.dart';
-import 'package:linkstagram/widgets/errorImagePlaceholder.dart';
-import 'package:linkstagram/widgets/loadingPlaceholder.dart';
+import 'package:linkstagram/widgets/imagePlaceholders/errorImagePlaceholder.dart';
+import 'package:linkstagram/widgets/imagePlaceholders/loadingPlaceholder.dart';
 import 'package:linkstagram/widgets/newprofilePicture.dart';
-import 'package:linkstagram/widgets/profilePicture.dart';
-import 'package:linkstagram/widgets/viewPostPopUp.dart';
+import 'package:linkstagram/widgets/viewPostDialogWidgets/viewPostDialog.dart';
 import 'package:provider/provider.dart';
 import 'package:readmore/readmore.dart';
 

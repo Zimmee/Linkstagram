@@ -8,7 +8,7 @@ import 'package:linkstagram/widgets/customAppbar/chooseLanguageButton.dart';
 import 'package:linkstagram/widgets/customAppbar/customAppBar.dart';
 import 'package:linkstagram/widgets/customAppbar/appBarDesktopButtons.dart';
 
-import 'package:linkstagram/widgets/editProfileScreenWidgets/editUserProfilePopUp.dart';
+import 'package:linkstagram/widgets/editProfileScreenWidgets/editUserProfileDialog.dart';
 import 'package:linkstagram/widgets/newprofilePicture.dart';
 import 'package:linkstagram/widgets/postTile.dart';
 import 'package:linkstagram/widgets/profileScreenWidgets/profileScreenButtons.dart';
@@ -123,7 +123,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   child: ProfileScreenButtons(
                     () => showDialog(
                       context: context,
-                      builder: (context) => EditUserProfilePopUp(),
+                      builder: (context) => EditUserProfileDialog(),
                     ),
                   ),
                 ),

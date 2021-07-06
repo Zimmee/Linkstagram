@@ -5,12 +5,12 @@ import 'package:linkstagram/constants/app_colors.dart';
 import 'package:linkstagram/providers/posts.dart';
 import 'package:provider/provider.dart';
 
-class AddPostPopUp extends StatefulWidget {
+class AddPostDialog extends StatefulWidget {
   @override
-  _AddPostPopUpState createState() => _AddPostPopUpState();
+  _AddPostDialogState createState() => _AddPostDialogState();
 }
 
-class _AddPostPopUpState extends State<AddPostPopUp> {
+class _AddPostDialogState extends State<AddPostDialog> {
   String _image;
   String path;
   final _descriptionController = TextEditingController();

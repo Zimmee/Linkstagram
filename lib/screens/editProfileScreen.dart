@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:linkstagram/constants/app_colors.dart';
-import 'package:linkstagram/providers/authProvider/auth.dart';
+import 'package:linkstagram/providers/auth.dart';
 import 'package:linkstagram/widgets/customAppbar/customAppBar.dart';
 import 'package:linkstagram/widgets/editProfileScreenWidgets/changeUserInfoForm.dart';
 import 'package:provider/provider.dart';

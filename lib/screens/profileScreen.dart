@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:linkstagram/constants/app_colors.dart';
 import 'package:linkstagram/models/user.dart';
-import 'package:linkstagram/providers/authProvider/auth.dart';
+import 'package:linkstagram/providers/auth.dart';
 import 'package:linkstagram/screens/editProfileScreen.dart';
 import 'package:linkstagram/widgets/customAppbar/customAppBar.dart';
-import 'package:linkstagram/widgets/editUserProfilePopUp.dart';
+import 'package:linkstagram/widgets/editProfileScreenWidgets/editUserProfileDialog.dart';
 import 'package:linkstagram/widgets/newprofilePicture.dart';
-import 'package:linkstagram/widgets/profilePicture.dart';
 import 'package:linkstagram/widgets/profileScreenWidgets/photoGrid.dart';
 import 'package:linkstagram/widgets/profileScreenWidgets/profileScreenButtons.dart';
 import 'package:linkstagram/widgets/profileScreenWidgets/userInformation.dart';
@@ -213,7 +212,7 @@ Container buildUserInformationForWeb(BuildContext context, User user) {
                 child: ProfileScreenButtons(() => {
                       showDialog(
                           context: context,
-                          builder: (context) => EditUserProfilePopUp())
+                          builder: (context) => EditUserProfileDialog())
                     })),
           ],
         ),

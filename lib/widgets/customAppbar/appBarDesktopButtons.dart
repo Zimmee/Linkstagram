@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:linkstagram/providers/authProvider/auth.dart';
+import 'package:linkstagram/providers/auth.dart';
 import 'package:linkstagram/screens/profileScreen.dart';
-import 'package:linkstagram/widgets/chooseLanguageButton.dart';
-import 'package:linkstagram/widgets/customAppbar/customAppBar.dart';
+import 'package:linkstagram/widgets/customAppbar/chooseLanguageButton.dart';
 import 'package:linkstagram/widgets/newprofilePicture.dart';
-import 'package:linkstagram/widgets/profilePicture.dart';
 import 'package:provider/provider.dart';
 
 class AppBarDesktopButtons extends StatefulWidget {

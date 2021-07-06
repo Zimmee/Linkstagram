@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:linkstagram/widgets/authScreenWidgets/authFormWeb.dart';
-import 'package:linkstagram/widgets/chooseLanguageButton.dart';
+import 'package:linkstagram/widgets/customAppbar/chooseLanguageButton.dart';
 import 'package:linkstagram/widgets/customAppbar/customAppBar.dart';
 import 'package:linkstagram/widgets/authScreenWidgets/authForm.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

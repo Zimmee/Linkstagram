@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:linkstagram/constants/app_colors.dart';
 import 'package:linkstagram/widgets/newprofilePicture.dart';
-import 'package:linkstagram/widgets/profilePicture.dart';
 
 class UserInformation extends StatelessWidget {
   final _user;

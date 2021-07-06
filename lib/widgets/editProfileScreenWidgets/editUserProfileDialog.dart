@@ -2,7 +2,6 @@ import 'dart:convert';
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:linkstagram/constants/app_colors.dart';
 import 'package:linkstagram/models/user.dart';
 import 'package:linkstagram/providers/auth.dart';
@@ -11,12 +10,12 @@ import 'package:linkstagram/widgets/imagePlaceholders/errorImagePlaceholder.dart
 import 'package:linkstagram/widgets/imagePlaceholders/loadingPlaceholder.dart';
 import 'package:provider/provider.dart';
 
-class EditUserProfilePopUp extends StatefulWidget {
+class EditUserProfileDialog extends StatefulWidget {
   @override
-  _EditUserProfilePopUpState createState() => _EditUserProfilePopUpState();
+  _EditUserProfileDialogState createState() => _EditUserProfileDialogState();
 }
 
-class _EditUserProfilePopUpState extends State<EditUserProfilePopUp> {
+class _EditUserProfileDialogState extends State<EditUserProfileDialog> {
   String _image;
   String path;
   final _descriptionController = TextEditingController();
